@@ -23,4 +23,5 @@ require_once 'inc/init.inc.php';
 if(!runtime_sessionsecurity::antiSessionHijacking()){
     exit(header("location: ./?sessionIssue"));
 }
-?>
+
+//Test
